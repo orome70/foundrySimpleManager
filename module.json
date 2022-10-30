@@ -12,7 +12,7 @@
       "minimum": "10",
       "verified": "10"
     },
-    "style":[
+    "styles":[
         "styles/simplestyle.css"
     ],
     "scripts": [
