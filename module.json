@@ -1,0 +1,21 @@
+{
+    "id": "SimpleManager",
+    "title": "Simple Manager",
+    "description": "A module created for having a very simple interface for Foundry Virtual Tabletop. It is meant for playing on tablets or touch screens. It uses TouchVTT module which ensurescompatibility with touch devices.",
+    "authors": [
+      {
+      "name": "Orome"
+      }
+      ],
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10"
+    },
+    "style":[
+        "styles/simplestyle.css"
+    ],
+    "scripts": [
+        "scripts/simplescript.js"
+      ]
+  }
