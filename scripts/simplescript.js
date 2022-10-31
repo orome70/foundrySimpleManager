@@ -1,14 +1,15 @@
 function updateTabs(value) {
     //const tabsBis = game.appliction
     const theTabs = ['[data-tab=scenes]','[data-tab=combat]','[data-tab=tables]','[data-tab=cards]','[data-tab=playlists]','[data-tab=compendium]'];
-    
-        theTabs.forEach(element => {
-            if (value){
-                $(element).hide();
-            } else {
-                $(element).show();
-                //game.activateTab(element);
-            }
+            theTabs.forEach(element => {
+                if (value){
+                    $(element).hide();
+                } 
+                else {
+                    document.getElementById('data-tab=combat').style["display"] = "block";
+                //$(element).show();
+                //    game.sidebar.activateTab(element);
+                }
     });
 }
   
