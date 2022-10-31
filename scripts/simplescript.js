@@ -6,8 +6,8 @@ function updateTabs(value) {
             if (value){
                 $(element).hide();
             } else {
-                //$(element).activate();
-                game.activateTab(element);
+                $(element).show();
+                //game.activateTab(element);
             }
     });
 }

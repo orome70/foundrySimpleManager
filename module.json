@@ -4,10 +4,16 @@
     "description": "A module created for having a very simple interface for Foundry Virtual Tabletop. It is meant for playing on tablets or touch screens. It uses TouchVTT module which ensurescompatibility with touch devices.",
     "authors": [
       {
-      "name": "Orome"
-      }
+      "name": "Orome",
+      "email": "orome@orome.org",
+      "url": "https://github.com/orome70"
+ }
       ],
-    "version": "0.0.1",
+     "url": "https://github.com/orome70/foundrySimpleManager",
+     "readme": "https://raw.githubusercontent.com/orome70/foundrySimpleManager/master/README.md",
+     "bugs": "https://github.com/orome70/foundrySimpleManager/issues",
+     "changelog": "https://github.com/orome70/foundrySimpleManager/releases",
+     "version": "0.0.1",
     "compatibility": {
       "minimum": "10",
       "verified": "10"
